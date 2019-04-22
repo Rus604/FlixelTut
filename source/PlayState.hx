@@ -7,8 +7,7 @@ class PlayState extends FlxState
 {
 	override public function create():Void
 	{
-		add(new FlxText(10, 10, 100, "hello, World!"));
-		super.create();
+			super.create();
 	}
 
 	override public function update(elapsed:Float):Void
